@@ -1,0 +1,16 @@
+[
+    {
+        "question": "What Ansible technology can help automatically kick off AIOps workflows for self-healing infrastructure?",
+        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "type": "radio",
+        "choices": ["Ansible Lightspeed", "Anshul.Net Framework", "LoRA: Low-rank adaptation", "EDA: Event-Driven Ansible"],
+        "correctAnswer": 4
+    },
+    {
+        "question": "What is the name of the technology that can help generate Ansible Playbooks within your Visual Studio Code IDE?",
+        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "type": "radio",
+        "choices": ["Red Hat Ansible Lightspeed with IBM watsonx Code Assistant", "Claude", "OpenAI ChatGPT", "Llama"],
+        "correctAnswer": 4
+    }
+]

@@ -1,11 +1,6 @@
 const QUIZ_CATEGORIES = [
   {category: 'js', title: 'JavaScript'},
-  {category: 'java', title: 'Java'},
-  {category: 'php', title: 'PHP'},
-  {category: 'sql', title: 'SQL (MySQL)'},
-  {category: 'css', title: 'CSS'},
-  {category: 'bash', title: 'Bash'},
-  {category: 'dart', title: 'Dart'}
+  {category: 'aiops', title: 'AIOps'}
 ];
 
 const SUPPORTED_QUIZ_TYPES = [
@@ -229,7 +224,7 @@ class UI {
     return new Promise((resolve, reject) => {
       if (!quiz.done) {
         this.quizCard.innerHTML = quiz.value;
-        
+
         // Sets autofocus
         // const input = this.quizCard.querySelector('input');
         // if (input) {
@@ -691,7 +686,7 @@ class QuizService {
 
     let inputGenerator = initInputGenerator();
 
-    return `<div class="description">${splittedDescription.map((d) => 
+    return `<div class="description">${splittedDescription.map((d) =>
       this._htmlEntities(d)).map((d) => {
         let {value, done} = inputGenerator.next();
         return d + (done ? '' : value);
