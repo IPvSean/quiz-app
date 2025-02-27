@@ -787,42 +787,4 @@ function eventListeners() {
   );
 }
 
-function eventListeners() {
-  let quizCategories = QUIZ_CATEGORIES.map((data) => {
-      return `<a href="#" class="quiz-category" data-quiz-category="${data.category}" data-quiz-title="${data.title}">${data.title}</a>`;
-  });
-
-  document.getElementById('quiz-categories').innerHTML = quizCategories.join('');
-
-  const ui = new UI;
-  const game = new Game;
-  const quizService = new QuizService();
-  const controller = new Controller(ui, game, quizService);
-
-  ui.startButton.onclick = () => controller.start();
-  ui.quiz.onsubmit = (e) => {e.preventDefault(); controller.submitAnswer(true)};
-  ui.menuButton.addEventListener('click', () => controller.toggleMenu());
-  ui.closeMenuButton.onclick = () => controller.toggleMenu();
-  ui.viewAnswersButton.onclick = () => controller.viewAnswers();
-  document.body.onkeyup = (e) => e.key === "Escape" ? controller.toggleMenu() : null;
-  document.addEventListener('timeout', () => controller.submitAnswer(false));
-
-  ui.quizCategories.forEach((value) => {
-      value.onclick = controller.loadQuizzesByType.bind(
-          controller,
-          value.getAttribute('data-quiz-category'),
-          value.getAttribute('data-quiz-title')
-      );
-  });
-
-  ui.menuLinks.forEach((value) => {
-      value.onclick = () => ui.openLink(value.dataset.menu);
-  });
-
-  ui.restartButtons.forEach((value) => {
-      value.onclick = () => controller.restart();
-  });
-
-  // Automatically show the "Quizzes" section
-  ui.openLink('challenges');
-}
+document.addEventListener('DOMContentLoaded', eventListeners);
