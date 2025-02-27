@@ -109,6 +109,7 @@
       <div id="menu" class="overlay__content">
         <a href="#" class="menu-link" data-menu="about">Author</a>
         <a href="#" class="menu-link" data-menu="challenges">Quizzes</a>
+        <a href="https://github.com/makarsky/quiz-app" >Do you want to add a quiz?</a>
       </div>
 
       <!-- About section -->
@@ -123,7 +124,7 @@
       </div>
 
       <!-- Challenges section -->
-      <div id="challenges" class="overlay__content" style="display: block;">
+      <div id="challenges" class="overlay__content">
         <div id="quiz-categories"></div>
       </div>
 
