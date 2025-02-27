@@ -1,6 +1,6 @@
 const QUIZ_CATEGORIES = [
-  {category: 'js', title: 'JavaScript'},
-  {category: 'aiops', title: 'AIOps'}
+  {category: 'aiops', title: 'AIOps'},
+  {category: 'bash', title: 'Bash'}
 ];
 
 const SUPPORTED_QUIZ_TYPES = [
