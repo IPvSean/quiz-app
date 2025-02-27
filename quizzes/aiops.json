@@ -1,35 +1,35 @@
 [
     {
         "question": "What Ansible technology can help automatically kick off AIOps workflows for self-healing infrastructure?",
-        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "description": "",
         "type": "radio",
         "choices": ["Ansible Lightspeed", "Anshul.Net Framework", "LoRA: Low-rank adaptation", "EDA: Event-Driven Ansible"],
         "correctAnswer": 3
     },
     {
-        "question": "What Ansible technology can help automatically kick off AIOps workflows for self-healing infrastructure?",
-        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "question": "What is AIOps?",
+        "description": "",
         "type": "radio",
-        "choices": ["Ansible Lightspeed", "Anshul.Net Framework", "LoRA: Low-rank adaptation", "EDA: Event-Driven Ansible"],
-        "correctAnswer": 3
+        "choices": ["is artificial intelligence for IT operations. It’s both an IT operations approach and an integrated software system that uses data science to augment manual problem solving and systems resolution.", "a series of large language models (LLMs) created by IBM for enterprise applications", "vLLM, which stands for virtual large language model", "a set of workflow practices aiming to streamline the process of deploying and maintaining machine learning (ML) models"],
+        "correctAnswer": 0
     },
     {
-        "question": "What Ansible technology can help automatically kick off AIOps workflows for self-healing infrastructure?",
-        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "question": "What is a benefit of AIOps??",
+        "description": "",
         "type": "radio",
-        "choices": ["Ansible Lightspeed", "Anshul.Net Framework", "LoRA: Low-rank adaptation", "EDA: Event-Driven Ansible"],
-        "correctAnswer": 3
+        "choices": ["Resolution speed: AIOps reduces downtime by detecting and reacting to emerging issues, decreasing mean time to resolution (MTTR).", "Replace Human Strategic Decision-Making", "Eliminate the Need for Skilled IT Professionals", "Guarantee 100% Incident Prevention"],
+        "correctAnswer": 0
     },
     {
-        "question": "What Ansible technology can help automatically kick off AIOps workflows for self-healing infrastructure?",
-        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "question": "Does AIOps replace DevOps?",
+        "description": "",
         "type": "radio",
-        "choices": ["Ansible Lightspeed", "Anshul.Net Framework", "LoRA: Low-rank adaptation", "EDA: Event-Driven Ansible"],
-        "correctAnswer": 3
+        "choices": ["No, AIOps doesn’t replace DevOps—it’s an evolution of DevOps. AIOps is another point along the same digital transformation life cycle. AIOps and DevOps share the same responsibilities. AIOps just augments human intelligence with a mechanized brain.", "Yes, AIOps can replace your IT infrastrucure team immediately and solve all issues with ease!"],
+        "correctAnswer": 0
     },
     {
         "question": "What is the name of the technology that can help generate Ansible Playbooks within your Visual Studio Code IDE?",
-        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "description": "",
         "type": "radio",
         "choices": ["Red Hat Ansible Lightspeed with IBM watsonx Code Assistant", "Claude", "OpenAI ChatGPT", "Llama"],
         "correctAnswer": 0
